@@ -1,0 +1,12 @@
+/Users/ogwugbomokpara/Desktop/pluralsight/gradebook/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.deps.json
+/Users/ogwugbomokpara/Desktop/pluralsight/gradebook/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.runtimeconfig.json
+/Users/ogwugbomokpara/Desktop/pluralsight/gradebook/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.runtimeconfig.dev.json
+/Users/ogwugbomokpara/Desktop/pluralsight/gradebook/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.dll
+/Users/ogwugbomokpara/Desktop/pluralsight/gradebook/src/GradeBook/bin/Debug/netcoreapp3.1/GradeBook.pdb
+/Users/ogwugbomokpara/Desktop/pluralsight/gradebook/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.csprojAssemblyReference.cache
+/Users/ogwugbomokpara/Desktop/pluralsight/gradebook/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.csproj.CoreCompileInputs.cache
+/Users/ogwugbomokpara/Desktop/pluralsight/gradebook/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.AssemblyInfoInputs.cache
+/Users/ogwugbomokpara/Desktop/pluralsight/gradebook/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.AssemblyInfo.cs
+/Users/ogwugbomokpara/Desktop/pluralsight/gradebook/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.dll
+/Users/ogwugbomokpara/Desktop/pluralsight/gradebook/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.pdb
+/Users/ogwugbomokpara/Desktop/pluralsight/gradebook/src/GradeBook/obj/Debug/netcoreapp3.1/GradeBook.genruntimeconfig.cache
