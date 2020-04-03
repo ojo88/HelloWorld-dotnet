@@ -3,10 +3,17 @@ using System.Collections.Generic;
 
 namespace GradeBook
 {
+
     class Program
     {
         static void Main(string[] args)
         {
+
+            var book = new Book("Joseph's Grade Book");
+            book.AddGrade(89.1);
+            book.AddGrade(90.5);
+            book.AddGrade(77.5);
+
            /* var x = 34.1;  //like javascript, i can use var. var is an implicit data type and is defiend by the data stored in the vairable.  
             var y = 10.3;  //Basically it tells the compiler to figure out the type by what's stored in the variable at compilation. x and y become double 
             var result = x + y;
@@ -20,18 +27,21 @@ namespace GradeBook
             
 
             var result = 0.0;
-            foreach(double number in grades){
+            var highGrade = double.MinValue;
+            var lowGrade = double.MaxValue;
+            foreach(double number in grades)
+            {
+                // if(number > highGrade) {
+                //     highGrade = number;
+                // } The following code below is the equivalent.
+                highGrade = Math.Max(number, highGrade);
+                lowGrade = Math.Min(number, lowGrade);
+
                 result +=number;
             }
             result = result/grades.Count;
-            System.Console.WriteLine($"The average grade is {result:N1}");
-            if (args.Length > 0)
-            {
-                Console.WriteLine($"Hello, {args[0]}!");
-            }
-            else{
-                Console.WriteLine("Hello!");
-            }
+            System.Console.WriteLine($"The highest grade is {highGrade:N1}. \nThe lowest grade is {lowGrade:N1}. \nThe average grade is {result:N1}.");
+
 
         }
     }
